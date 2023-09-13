@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-size: 2rem;
 }
 
 h1 {
@@ -10,7 +11,7 @@ h1 {
 .poster {
     width: 50%;
     margin-left: 25%;
-    margin-top: 100px;
+    margin-top: 50px;
     color: white;
     font-family: "Libre Baskerville", serif;
     text-align: center;
@@ -20,3 +21,31 @@ h1 {
     border: 5px solid white;
     width: 100%;
 }
+
+.navbar {
+    background-color: teal;
+    overflow: hidden;
+}
+  
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background-color: beige;
+    color: black;
+    border-radius: 50px;
+    transition: 0.5s ease;
+  }
+
+.navbar a.active {
+    background-color: #04AA6D;
+    color: black;
+    border-radius: 50px;
+}
+  
